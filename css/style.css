@@ -1,0 +1,193 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 2px 10%;
+}
+.header .logo{
+    cursor: :pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+.header .nav-links{
+    list-style: none;
+}
+.header .nav-links li{
+display: inline-block;
+padding: 0% 5px;
+}
+.header .nav-links a{
+    font-size: 700;
+    color: gray;
+    text-decoration: green;
+}
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a:hover{
+    color: green;
+}
+.header .btna button{
+ font-size-adjust: initial;
+    font-size: 20px;
+    color: black;
+    text-decoration-color: black;
+    padding: 05px;
+    border-color: black;
+    border-radius: 45px;
+    cursor: pointer;
+    
+}
+.header .btnb button{
+    background-color: black;
+    font-size-adjust: initial;
+    font-size: 20px;
+    color: white;
+    lighting-color: black;
+    padding: 05px;
+    border-color: black;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.amarilla{
+    width: 85%;
+    height: 47%;
+    background-color: rgb(255, 208, 0);
+    font-size: 30px;
+    position:absolute;
+    top: 85px;
+    bottom:200px;
+    right: 0px;
+    left: 140px;
+    display: flex;
+}
+.verde{
+    width: 85%;
+    height: 47%;
+    background-color: rgb(0, 58, 24);
+    font-size: 30px;
+    position:absolute;
+    top: 580px;
+    bottom:200px;
+    right: 0px;
+    left: 140px;
+    display: flex;
+}
+.cafe{
+    width: 85%;
+    height: 47%;
+    background-color: rgb(216, 190, 118);
+    font-size: 30px;
+    position:absolute;
+    top: 1080px;
+    bottom:200px;
+    right: 0px;
+    left: 140px;
+    display: flex;
+}
+.rosa{
+width: 85%;
+height: 47%;
+background-color: rgb(250, 209, 255);
+font-size: 30px;
+position:absolute;
+top: 1580px;
+bottom:200px;
+right: 0px;
+left: 140px;
+display: flex;
+}
+.gris{
+width: 85%;
+height: 47%;
+background-color: rgb(193, 209, 195);
+font-size: 30px;
+position:absolute;
+top: 2080px;
+bottom:200px;
+right: 0px;
+left: 140px;
+display: flex;
+}
+.cuadro1{
+width: 38%;
+height: 80%;
+background-color: rgb(255, 0, 0);
+font-size: 30px;
+position:absolute;
+top: 2580px;
+bottom:200px;
+right: 0px;
+left: 140px;
+display:block;
+}
+.cuadro2{
+    width: 38%;
+    height: 80%;
+    background-color: rgb(255, 134, 35);
+    font-size: 30px;
+    position:absolute;
+    top: 2580px;
+    bottom:200px;
+    right: 0px;
+    left: 1040px;
+    display:block;
+    }
+
+
+
+
+
+
+
+
+.text1{
+    font-size: 700;
+text-align: center;
+padding-left: 90px;
+color: rgb(0, 0, 0);
+}
+.text2{
+    text-align: center;
+    padding-left: 80px;
+   color: white;
+
+
+}
+.text3{
+    font-size: 700;
+    text-align: center;
+    padding-left: 90px;
+    color: rgb(104, 74, 18);
+}
+.text4{
+    font-size: 700;
+    text-align: center;
+    padding-left: 90px;
+    color: rgb(88, 19, 73);
+}
+.text6{
+    color: white;
+    text-align: center;
+}
